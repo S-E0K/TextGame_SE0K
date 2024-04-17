@@ -1,19 +1,18 @@
 package me.se0k;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    static Map<String, Integer> map1 = new LinkedHashMap<>(){{
+    static LinkedHashMap<String, Integer> map1 = new LinkedHashMap<>();
+    static {
         map1.put("조약돌", 0);
         map1.put("석탄", 0);
         map1.put("철", 0);
         map1.put("금", 0);
         map1.put("에메랄드", 0);
         map1.put("다이아몬드", 0);
-    }};
+    }
 
     public static void main(String[] args) {
 
